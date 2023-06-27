@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<style>
+    img{border-radius: 10px;}
+    @media screen and (max-width: 300px){
+        img{
+            width: 200px;
+        }
+
+    }
+    @media only screen and (max-width: 600px) and (min-width: 300px)  {
+        img{
+            width: 300px;
+        }
+
+    }
+    @media only screen and (max-width: 800px) and (min-width: 600px)  {
+        img{
+            width: 400px;
+        }
+
+    }
+    .img4:hover{
+      width: 10 px;
+      height: 5px;
+    }
+  
+
+
+
+</style>  
+</head>
+  <body>
+    <div>   
+
+        <nav class="navbar navbar-expand-lg bg-dark p-4">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="background-color: #e4dcdf;"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text" href="#">Action</a></li>
+                      <li><a class="dropdown-item text" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled text-light">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <br>
+          <div class="container">
+          <div class="row">
+            <div class="col-md-6 bgdata">
+                <img src="./workplace.jpg" width="100%" style="box-shadow: 0px 0px 10px 2px #a56b79;">
+                <center>
+                <div>
+                  <br><br>
+                    <h2 style="text-decoration: underline;">Information</h2>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut a ipsa officiis aliquam, libero voluptatibus vitae earum molestiae, odit veritatis dignissimos corrupti sint natus eum ullam omnis obcaecati? Tempore id fuga nobis non in, accusantium nesciunt eos, at ducimus ipsam debitis quam praesentium corporis ipsum. Aut pariatur, veniam enim earum alias magni beatae harum repudiandae quaerat, quis voluptatibus eum quidem. Obcaecati, accusamus repudiandae! Voluptate animi saepe similique, laborum, voluptates voluptatum vel quos error perspiciatis debitis dicta minima consequatur repudiandae quis sint harum placeat hic id, deleniti a voluptas aliquam? Qui ducimus odio iure itaque optio laborum harum animi, laboriosam ex.</p>
+                </div>
+            </center>
+            </div><br>
+           
+            <div class="col-md-6">
+             
+               <div style=" box-shadow: 0px 0px 10px 5px #a56b79; padding: 50px; border-radius: 20px; ">
+                <center><b class="btn btn-primary btn-lg form-control display-1" >Fill The  Form Information</b></center><br>
+                <label for="name">Name : </label>
+                <input id="name" type="text" class="form-control my-4">
+                
+                <label for="name">Email : </label>
+                <input id="name" type="text" class="form-control my-4">
+                <label for="name">Mobile : </label>
+                <input id="name" type="text" class="form-control my-4">
+                <label for="name">Address : </label>
+                <textarea id="name" type="text" class="form-control"></textarea>
+                <br>
+                <button class=" form-control btn btn-dark">Submit</button>
+            </div>
+  
+            
+            
+          </div>
+        </div>
+        <br><br>
+        <hr>
+        
+        <div class="row">
+          <div class="col-md-12">
+          <h3 style="text-decoration: underline; text-align: center;">All Xiaomi Phone</h3>
+        </div>
+        </div><br>
+    
+      <div class="row">
+        
+        <div class="col-md-3 btn btn-light" style=" box-shadow: 0px 0px 10px 2px rgb(239, 234, 234); " >
+          <button type="button" style="border-radius: 10px; position: relative; right: 100px; background-color: rgb(255,240,229); border: 1px solid orange; color: orange; margin-top: 10px;">11% off</button>
+          <p>
+            <h2 style="text-align: center;">Xiaomi 13 pro</h2>
+            <h6 style="text-align: center; font-size: 11px;">Special Exchange Bonus upto ₹10.000</h6>
+            <center>
+              <b style="  font-size: 16px; position: relative; left: 30px; float: left;">Form</b>
+              <small><b>   ₹ 79,999</b></small>
+              <del style=" color: gray;">₹89,999</del>
+              <span></span>
+            </center>
+          </strong>
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <button type="button" class="btn btn-dark form-control rounded-pill mt-4 px-4">Buy now</button>  
+               
+            </div>
+            <div class="col-md-6">
+              <button type="button"  class="btn btn mt-4 form-control border-black rounded-pill">Learm More</button>
+            </div>
+
+          </div>
+          
+          <img src="./Xiaomi 13 pro.jpg" class="mt-4" style=" width: 100%;  height: 300px;" alt=""></div>
+
+        <div class="col-md-3 btn btn-light" style="box-shadow: 0px 0px 10px 2px #e4dcdf;">
+          
+          <button type="button" style="border-radius: 10px; position: relative; right :100px; background-color: rgb(255,240,229);  border: 1px solid orange; color: orange; margin-top: 10px;">16% off</button>
+          <p>
+            <h2 style="text-align: center;">Xiaomi 11i 5G</h2>
+            <h6 style="text-align: center; font-size: 11px;">108 MP Triple Pro Camera MediaTek</h6>
+            <h6 style="text-align: center; font-size:11px ">Dimensity 920</h6>
+            <center>
+              <b style="  font-size: 16px; position: relative; left: 30px; float: left;">Form</b>
+              <small><b>   ₹ 24,999</b></small>
+              <del style=" color: gray;">₹29,999</del>
+              <span></span>
+            </center>
+          </strong>
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+             
+              <button type="button" class="btn btn-dark form-control rounded-pill mt-3 px-4">Buy now</button>
+              
+            </div>
+            <div class="col-md-6">
+              <button type="button"  class="btn btn mt-3 form-control border-black rounded-pill">Learm More</button>
+            
+            </div>
+
+          </div>
+        <img src="./Xiaomi 12 pro.jpg"  class="mt-4" style="width: 100%; height: 300px;"  alt=""></div>
+
+        <div class="col-md-3 btn btn-light" style="box-shadow: 0px 0px 10px 2px #e4dcdf;">
+          <button type="button" style="border-radius: 10px; position: relative; right :100px; background-color: rgb(255,240,229); border: 1px solid orange; color: orange; margin-top: 10px;">28% off</button>
+          <p>
+            <h2 style="text-align: center;">Xiaomi 11i</h2>
+            <h4 style="text-align: center;">Hyperchange 5G</h4>
+            <h6 style="text-align: center; font-size: 11px;">India's Fastest Charging Smartphone</h6>
+            <!-- <h6 style="text-align: center;">Dimensity 920</h6> -->
+            <center>
+              <b style="  font-size: 16px; position: relative; left: 30px; float: left;">Form</b>
+              <small><b>   ₹ 79,999</b></small>
+              <del style=" color: gray;">₹89,999</del>
+              <span></span>
+            </center>
+          </strong>
+            </p>
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <button type="button" class="btn btn-dark form-control rounded-pill mt-1 px-4">Buy now</button>
+              
+            </div>
+            <div class="col-md-6">
+              <button type="button"  class="btn btn mt-1 form-control border-black rounded-pill">Learm More</button>
+            
+            </div>
+
+          </div>
+          <img src="./Xiaomi 11I.png" class="mt-3" style="width: 100%; height: 300px;" alt=""></div>
+
+
+        <div class="col-md-3 btn btn-light" style="box-shadow: 0px 0px 10px 2px #e4dcdf; ">
+          <button type="button" style="border-radius: 10px; position: relative; right :100px; background-color: rgb(255,240,229); border: 1px solid orange; color: orange; margin-top: 10px;">43% off</button>
+          <p>
+            <h2 style="text-align: center; margin-top: 75px">Xiaomi 12 Pro</h2>
+            <!-- <h4 style="text-align: center;">Hyperchange 5G</h4> -->
+            <!-- <h6 style="text-align: center;">India's Fastest Charging Smartphone</h6> -->
+            <!-- <h6 style="text-align: center;">Dimensity 920</h6> -->
+            <center>
+              <b style="  font-size: 16px; position: relative; left: 30px; float: left;">Form</b>
+              <small><b>   ₹ 79,999</b></small>
+              <del style=" color: gray;">₹89,999</del>
+              <span></span>
+            </center>
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <button type="button" class="btn btn-dark form-control rounded-pill mt-2 px-4">Buy now</button>
+              
+            </div>
+            <div class="col-md-6">
+              <button type="button"  class="btn btn mt-2 form-control border-black rounded-pill">Learm More</button>
+            
+            </div>
+
+          </div> 
+          <img src="./Xiaomi 11i 5G.png" class="mt-3" style="width: 100%; height: 300px;" alt=""></div>
+
+       
+        
+        
+        
+      </div><br><br>
+        </div>
+
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
