@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0%;
+      }
+      .divfb {
+        float: left;
+        background-color: #4867a8;
+        width: 100%;
+      }
+      .logofb {
+        float: left;
+        width: 50%;
+        height: 100px;
+      }
+      .logofb img {
+        float: left;
+        width: 31%;
+        height: 70px;
+        padding-left: 127px;
+        padding-top: 29px;
+      }
+      .facebook-login {
+        float: left;
+        width: 50%;
+      }
+      .Div-login {
+        float: left;
+        width: 33.33%;
+        color: #fff;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        
+      }
+
+      .midDiv {
+        float: left;
+        width: 100%;
+        background-color: #e9ebf3;
+        height: 800px;
+      }
+      .midFirst {
+        float: left;
+        width: 50%;
+    }
+        .heading{
+        font-size: x-large;
+        margin-left: 146px;
+        margin-top: 64px;
+      }
+      .midSecond {
+        float: left;
+        width: 50%;
+        margin-top: -15px;
+        
+      }
+      .signUpForm {
+        width: 479px;
+        height: 700px;
+        margin-left: 100px;
+        margin-top: 61px;
+      }
+      .inputFirstName {
+        float: left;
+        width: 220px;
+        height: 24px;
+        font-weight: bold;
+        font-size: 16px;
+        border: 2px solid #cbd3e1;
+        border-radius: 5px;
+      }
+      .inputLastName {
+        float: left;
+        width: 220px;
+        height: 24px;
+        font-weight: bold;
+        font-size: 16px;
+        border: 2px solid #cbd3e1;
+        border-radius: 5px;
+        margin-left: 10px;
+      }
+      .numberoremail {
+        float: left;
+        width: 457px;
+        height: 24px;
+        font-weight: bold;
+        font-size: 16px;
+        border: 2px solid #cbd3e1;
+        border-radius: 5px;
+      }
+      .signUpForm div input {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .inputpassword {
+        float: left;
+        width: 457px;
+        height: 24px;
+        font-weight: bold;
+        font-size: 16px;
+        border: 2px solid #cbd3e1;
+        border-radius: 5px;
+      }
+      .birthday {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .inputBirthday {
+        width: 250px;
+        height: 24px;
+        border: 2px solid #cbd3e1;
+        border-radius: 5px;
+      }
+      border-radius: 5px;
+      .gender {
+        float: left;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .inputSubmit {
+        width: 200px;
+        height: 35px;
+        border: 2px solid #cbd3e1;
+        border-radius: 5px;
+        font-size: 20px;
+        background: #609d4d;
+        color: #fff;
+      }
+      .class-login {
+        background-color: #4267b2;
+        margin-top: 21px;
+        border: 1px solid #29487d;
+        width: 72px;
+        height: 23px;
+        border-radius: 4px;
+        color: #fff;
+      }
+      .networking {
+        width: 600px;
+        height: 250px;
+        padding-left: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="divfb">
+      <div class="logofb">
+        <img src="./imge/fblogo.jpg">
+      </div>
+
+      <div class="facebook-login">
+        <div class="Div-login">
+          <label for="userName">Email Or Number</label>
+          <input type="text" name="mail" id="userName" />
+        </div>
+
+        <div class="Div-login">
+          <label for="userPassword">Password</label>
+          <input type="password" name="Password" id="userPassword" />
+          <a href="#">Forgotton account?</a>
+        </div>
+        <div class="Div-login">
+          <input class="class-login" type="submit" value="Login" />
+        </div>
+      </div>
+    </div>
+    <div class="midDiv">
+      <div class="midFirst">
+        <div>
+          <h1 class="heading">
+            Facebook Helps you connect and share with the people in your life
+          </h1>
+
+          <img
+            class="networking"
+            width="500px"
+            src="./imge/kisspng-facebook-inc-social-networking-service-mymfb-uss-denver-5b393383697f78.3150077215304753954321.png"
+          />
+        </div>
+      </div>
+      <div class="midSecond">
+        <div class="signUpForm">
+          <div><h1>Create an Account</h1></div>
+          <div><span>It's an Easy and quick.</span></div>
+          <div>
+            <input
+              type="text"
+              class="inputFirstName"
+              name="firstName"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              class="inputLastName"
+              name="lastName"
+              placeholder="Last Name"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              class="numberoremail"
+              name="password"
+              placeholder="Mobile Number or email address"
+            />
+            <div>
+              <input
+                type="password"
+                class="inputpassword"
+                placeholder="Enter password"
+              />
+              <div class="birthday">
+                <label for="birthday">Birthday</label>
+              </div>
+              <div>
+                <input type="DATE" id="birthday" class="inputBirthday" />
+              </div>
+              <div class="inputGeder">
+                <div class="gender"><span>Gender</span></div>
+                <label for="gender1">Male</label>
+                <input type="radio" id="gender1" name="gender" value="Male" />
+
+                <label for="gender2">Female</label>
+                <input type="radio" id="gender2" name="gender" value="female" />
+
+                <label for="gender3">Custom</label>
+                <input type="radio" id="gender3" name="gender" value="Custom" />
+              </div>
+              <div>
+                <p>
+                  By clicking Sign Up, you ageer to our Terms, Date Policy and
+                  Cookie Policy. You may receive SMS notifications from us and
+                  can opt out at any time.
+                </p>
+              </div>
+              <div>
+                <input class="inputSubmit" type="Submit" value="Sign Up" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
