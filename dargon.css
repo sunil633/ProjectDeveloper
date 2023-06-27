@@ -1,0 +1,174 @@
+.sky {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-image: url(./px632353-image-kwvval9i.jpg);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: sky 60s linear infinite;
+}
+
+/* @keyframes sky {
+    100%{
+        transform: translateX(-1400px);
+    }
+} */
+.dragon {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    animation: dragon 50s linear infinite;
+    /* animation-direction: alternate; */
+    animation-duration: 1;
+    animation-iteration-count: 1;
+}
+
+@keyframes dragon {
+    1.4% {
+        top: 0px;
+        left: 0px;
+        transform: rotateX(50deg);
+    }
+
+    2.8% {
+        top: 100px;
+        left: 50px;
+        transform: rotateX(-35deg);
+    }
+
+    4.2% {
+        top: 200px;
+        left: 100px;
+        transform: rotateX(50deg);
+    }
+
+    5.6% {
+        top: 300px;
+        left: 200px;
+        transform: rotateX(-35deg);
+    }
+
+    7% {
+        top: 400px;
+        left: 300px;
+        transform: rotateX(50deg);
+    }
+
+    8.4% {
+        top: 450px;
+        left: 400px;
+        transform: rotateX(-35deg);
+    }
+
+    9.8% {
+        top: 450px;
+        left: 500px;
+        transform: rotateX(50deg);
+        ;
+    }
+
+    11.2% {
+        top: 400px;
+        left: 600px;
+        transform: rotateX(-35deg);
+    }
+
+    12.6% {
+        top: 300px;
+        left: 700px;
+        transform: rotateX(50deg);
+        ;
+    }
+
+    14% {
+        top: 200px;
+        left: 800px;
+        transform: rotateX(-35deg);
+    }
+
+    15.4% {
+        top: 100px;
+        left: 900px;
+        transform: rotateX(50deg);
+        ;
+    }
+
+    16.8% {
+        top: 100px;
+        left: 1000px;
+        transform: rotateX(-35deg);
+        ;
+    }
+
+    20% {
+        top: 200px;
+        left: 1100px;
+        transform: rotateX(50deg);
+    }
+
+    /* 19.6%{ top: 100px;left: 1200px; transform: rotateX(-35deg);}           */
+    /* 21%{ top: 400px;left: 1000px; transform: rotateX(50deg) rotateZ(90deg);}
+    22.4%{ top: 500px;left: 1000px;transform: rotateX(-35deg) rotateZ(90deg);}
+    100%{ top: 500px;left: 1000px;transform: rotateX(-35deg) rotateZ(90deg);} */
+
+    /* 23.8%{ top: 500px;left: 800px;transform: rotateX(50deg)rotateZ(-90deg);}
+    25.2%{ top: 500px;left: 700px;transform: rotateX(-35deg)rotateZ(-90deg);}
+    26.6%{ top: 500px;left:600px;transform: rotateX(50deg)rotateZ(-90deg);}
+    28%{ top: 500px;left: 500px;transform: rotateX(-35deg)rotateZ(-90deg);}
+    30%{ top: 500px;left: 400px;transform: rotateX(50deg)rotateZ(-90deg);}
+    31%{ top: 500px;left: 300px;transform: rotateX(-35deg)rotateZ(-90deg);}
+    32%{ top: 500px;left: 200px;transform: rotateX(50deg)rotateZ(-90deg);}
+    33%{ top: 500px;left: 100px;transform: rotateX(-35deg)rotateZ(90deg);}
+    34%{ top: 500px;left: 0px;transform: rotateX(50deg)rotateZ(90deg);}
+    35%{ top: 400px;left: 0px;transform: rotateX(-35deg)rotateZ(90deg);}
+    36%{ top: 300px;left: 0px;transform: rotateX(50deg)rotateZ(90deg);}
+    37%{ top: 200px;left: 0px;transform: rotateX(-35deg)rotateZ(90deg);}
+    38%{ top: 100px;left: 0px;transform: rotateX(50deg);}
+    39%{ top: 10px;left: 0px;transform: rotateX(-35deg);}
+    40%{ top: 0px;left: 0px;transform: rotateX(50deg);}
+    41%{ top: 250px;left: 1400px;transform: rotateX(-35deg);}
+    42%{ top: 200px;left: 400px;transform: rotateX(-90deg);}
+    43%{ top: 150px;left: 400px;transform: rotateX(-90deg);}
+    44%{ top: 100px;left: 400px;transform: rotateX(-90deg);}
+    45%{ top: 50px;left: 400px;transform: rotateX(-90deg);}
+    46%{ top: 0px;left: 400px;transform: rotateX(-0deg);}
+    47%{ top: 0px;left: 450px;transform: rotateX(-0deg);}
+    48%{ top: 0px;left: 500px;transform: rotateX(-0deg);}
+    49%{ top: 0px;left: 550px;transform: rotateX(-0deg);}
+    50%{ top: 0px;left: 600px;transform: rotateX(-0deg);}
+    51%{ top: 0px;left: 650px;transform: rotateX(-0deg);}
+    52%{ top: 0px;left: 700px;transform: rotateX(-0deg);}
+    53%{ top: 0px;left: 750px;transform: rotateX(90deg);}
+    54%{ top: 50px;left: 800px;transform: rotateX(90deg);}
+    55%{ top: 100px;left: 800px;transform: rotateX(90deg);}
+    56%{ top: 150px;left: 800px;transform: rotateX(90deg);}
+    57%{ top: 200px;left: 800px;transform: rotateX(90deg);}
+    58%{ top: 250px;left: 800px;transform: rotateX(90deg);}
+    59%{ top: 300px;left: 800px;transform: rotateX(90deg);}
+    60%{ top: 350px;left: 800px;transform: rotateX(90deg);}
+    62%{ top: 400px;left: 800px;transform: rotateX(90deg);}
+    64%{ top: 450px;left: 800px;transform: rotateX(90deg);}
+    66%{ top: 500px;left: 800px;transform: rotateX(90deg);}
+    68%{ top: 650px;left: 800px;transform: rotateX(0deg);}
+    70%{ top: 650px;left: 850px;transform: rotateX(0deg);}
+    72%{ top: 650px;left: 900px;transform: rotateX(0deg);}
+    74%{ top: 650px;left: 950px;transform: rotateX(0deg);}
+    76%{ top: 650px;left: 1000px;transform: rotateX(0deg);}
+    78%{ top: 650px;left: 1050px;transform: rotateX(0deg);}
+    80%{ top: 650px;left: 1100px;transform: rotateX(0deg);}
+    82%{ top: 650px;left: 1150px;transform: rotateX(0deg);}
+    84%{ top: 650px;left: 1150px;transform: rotateX(0deg);}
+    86%{ top: 600px;left: 1200px;transform: rotateX(0deg);}
+    88%{ top: 550px;left: 1200px;transform: rotateX(-90deg);}
+    90%{ top: 500px;left: 1200px;transform: rotateX(-90deg);}
+    92%{ top: 400px;left: 1200px;transform: rotateX(-90deg);}
+    94%{ top: 300px;left: 1200px;transform: rotateX(-90deg);}
+    97%{ top: 200px;left: 1200px;transform: rotateX(-90deg);}
+    100%{ top: 0px;left: 1200px;transform: rotateX(-90deg);}
+
+
+   
+    }  */
